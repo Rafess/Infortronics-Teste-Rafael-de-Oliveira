@@ -15,6 +15,6 @@ em tela o endereço que o mesmo retornar.
 5. Faça um programa que receba um número e usando laços de repetição
 calcule e mostre a tabuada desse número. 
     - Criado em JavaScript com WebApp utilizando Bootstrap;
-6. Faça uma consulta de SQL-Server que exibi a idade em anos a partir da
+6. Faça uma consulta de SQL-Server que exibe a idade em anos a partir da
 seguinte variável: DECLARE @nasc as varchar(11)='17/04/2008';
     - Criado em C# com SQL-Server;
