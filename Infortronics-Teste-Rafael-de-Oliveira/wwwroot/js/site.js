@@ -11,23 +11,8 @@ function sortNumbers() {
     let numbers = input.split(" ");
     let sortedNumbers = numbers.sort((a, b) => a - b);
     paragraph.append(sortedNumbers);
-    disableBtn();
-    return paragraph;
 }
 
-function saveToFile(paragraph) {
-    writeFile(paragraph.textContent)
-}
-
-
-
-function disableBtn() {
-    if (paragraph.textContent === "") {
-        saveToFileBtn.disabled = true;
-    } else {
-        saveToFileBtn.disabled = false;
-    }
-}
 
 const perfecParagraph = document.querySelector(".perfect-numbers");
 
